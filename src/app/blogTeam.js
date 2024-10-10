@@ -45,7 +45,7 @@ const blogTeam = new Team({
     name: 'AI News Blogging Team',
     agents: [researchAgent, writerAgent],
     tasks: [researchTask, writingTask],
-    env: { OPENAI_API_KEY: process.env.NEXT_PUBLIC_OPENAI_API_KEY2 || 'YOUR_OPENAI_API_KEY_HERE'}
+    env: { OPENAI_API_KEY: process.env.NEXT_PUBLIC_OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY_HERE'}
   });
   
   export { blogTeam };
