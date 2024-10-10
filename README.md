@@ -28,8 +28,8 @@ To get this project up and running, follow these steps:
 Create a `.env` file in the project root and add your API keys for Tavily and OpenAI:
 
 ```
-VITE_TRAVILY_API_KEY=your-tavily-api-key
-VITE_OPENAI_API_KEY=your-openai-api-key
+NEXT_PUBLIC_TRAVILY_API_KEY=your-tavily-api-key
+NEXT_PUBLIC_OPENAI_API_KEY=your-openai-api-key
 ```
 
 ## Running the Application
